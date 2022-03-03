@@ -58,11 +58,11 @@ The downfall of working with AST is that it can be very complex, I've started to
     ```
 1.  Let's add allowed operations for both querying and introspection
     ```js
-    allowed_opperation {
+    allowed_operation {
       input.parsed_body.operationName == "IntrospectionQuery"
     }
 
-    allowed_opperation {
+    allowed_operation {
       ast.definitions[i].kind == "OperationDefinition"
       ast.definitions[i].operation == "query"
     }
