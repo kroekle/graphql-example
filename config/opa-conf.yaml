@@ -1,0 +1,33 @@
+services:
+- name: styra
+  url: https://<tenant name>.svc.styra.com/v1
+  credentials:
+    bearer:
+      token: "<bearer token>"
+- credentials:
+    bearer:
+      token: '<bearer token>'
+labels:
+      system-id: "<system id>"
+      system-type: "envoy"
+bundles:
+  systems/<system id>:
+    polling:
+      max_delay_seconds: 15
+      min_delay_seconds: 10
+    resource: "/bundles/systems/<system id>"
+    service: styra
+decision_logs:
+  reporting:
+    max_delay_seconds: 15
+    min_delay_seconds: 10
+    upload_size_limit_bytes: 131072
+  service: styra
+default_decision: main/main
+plugins:
+  envoy_ext_authz_grpc:
+    addr: 0.0.0.0:9191
+    dry-run: false
+    path: main/main
+status:
+  service: styra

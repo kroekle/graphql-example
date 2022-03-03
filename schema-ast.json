@@ -1,0 +1,2979 @@
+{
+    "definitions": [
+      {
+        "directives": [],
+        "kind": "SchemaDefinition",
+        "loc": {
+          "end": 47,
+          "start": 1
+        },
+        "operationTypes": [
+          {
+            "kind": "OperationTypeDefinition",
+            "loc": {
+              "end": 24,
+              "start": 12
+            },
+            "operation": "query",
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 24,
+                "start": 19
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 24,
+                  "start": 19
+                },
+                "value": "Query"
+              }
+            }
+          },
+          {
+            "kind": "OperationTypeDefinition",
+            "loc": {
+              "end": 45,
+              "start": 27
+            },
+            "operation": "mutation",
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 45,
+                "start": 37
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 45,
+                  "start": 37
+                },
+                "value": "Mutation"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 159,
+                  "start": 143
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 150,
+                    "start": 143
+                  },
+                  "value": "episode"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 159,
+                    "start": 152
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 159,
+                      "start": 152
+                    },
+                    "value": "Episode"
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 171,
+              "start": 138
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 142,
+                "start": 138
+              },
+              "value": "hero"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 171,
+                "start": 162
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 171,
+                  "start": 162
+                },
+                "value": "Character"
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 199,
+                  "start": 182
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 189,
+                    "start": 182
+                  },
+                  "value": "episode"
+                },
+                "type": {
+                  "kind": "NonNullType",
+                  "loc": {
+                    "end": 199,
+                    "start": 191
+                  },
+                  "type": {
+                    "kind": "NamedType",
+                    "loc": {
+                      "end": 198,
+                      "start": 191
+                    },
+                    "name": {
+                      "kind": "Name",
+                      "loc": {
+                        "end": 198,
+                        "start": 191
+                      },
+                      "value": "Episode"
+                    }
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 210,
+              "start": 174
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 181,
+                "start": 174
+              },
+              "value": "reviews"
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 210,
+                "start": 202
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 209,
+                  "start": 203
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 209,
+                    "start": 203
+                  },
+                  "value": "Review"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 232,
+                  "start": 220
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 224,
+                    "start": 220
+                  },
+                  "value": "text"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 232,
+                    "start": 226
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 232,
+                      "start": 226
+                    },
+                    "value": "String"
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 249,
+              "start": 213
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 219,
+                "start": 213
+              },
+              "value": "search"
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 249,
+                "start": 235
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 248,
+                  "start": 236
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 248,
+                    "start": 236
+                  },
+                  "value": "SearchResult"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 269,
+                  "start": 262
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 264,
+                    "start": 262
+                  },
+                  "value": "id"
+                },
+                "type": {
+                  "kind": "NonNullType",
+                  "loc": {
+                    "end": 269,
+                    "start": 266
+                  },
+                  "type": {
+                    "kind": "NamedType",
+                    "loc": {
+                      "end": 268,
+                      "start": 266
+                    },
+                    "name": {
+                      "kind": "Name",
+                      "loc": {
+                        "end": 268,
+                        "start": 266
+                      },
+                      "value": "ID"
+                    }
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 281,
+              "start": 252
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 261,
+                "start": 252
+              },
+              "value": "character"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 281,
+                "start": 272
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 281,
+                  "start": 272
+                },
+                "value": "Character"
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 297,
+                  "start": 290
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 292,
+                    "start": 290
+                  },
+                  "value": "id"
+                },
+                "type": {
+                  "kind": "NonNullType",
+                  "loc": {
+                    "end": 297,
+                    "start": 294
+                  },
+                  "type": {
+                    "kind": "NamedType",
+                    "loc": {
+                      "end": 296,
+                      "start": 294
+                    },
+                    "name": {
+                      "kind": "Name",
+                      "loc": {
+                        "end": 296,
+                        "start": 294
+                      },
+                      "value": "ID"
+                    }
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 305,
+              "start": 284
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 289,
+                "start": 284
+              },
+              "value": "droid"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 305,
+                "start": 300
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 305,
+                  "start": 300
+                },
+                "value": "Droid"
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 321,
+                  "start": 314
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 316,
+                    "start": 314
+                  },
+                  "value": "id"
+                },
+                "type": {
+                  "kind": "NonNullType",
+                  "loc": {
+                    "end": 321,
+                    "start": 318
+                  },
+                  "type": {
+                    "kind": "NamedType",
+                    "loc": {
+                      "end": 320,
+                      "start": 318
+                    },
+                    "name": {
+                      "kind": "Name",
+                      "loc": {
+                        "end": 320,
+                        "start": 318
+                      },
+                      "value": "ID"
+                    }
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 329,
+              "start": 308
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 313,
+                "start": 308
+              },
+              "value": "human"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 329,
+                "start": 324
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 329,
+                  "start": 324
+                },
+                "value": "Human"
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 348,
+                  "start": 341
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 343,
+                    "start": 341
+                  },
+                  "value": "id"
+                },
+                "type": {
+                  "kind": "NonNullType",
+                  "loc": {
+                    "end": 348,
+                    "start": 345
+                  },
+                  "type": {
+                    "kind": "NamedType",
+                    "loc": {
+                      "end": 347,
+                      "start": 345
+                    },
+                    "name": {
+                      "kind": "Name",
+                      "loc": {
+                        "end": 347,
+                        "start": 345
+                      },
+                      "value": "ID"
+                    }
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 359,
+              "start": 332
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 340,
+                "start": 332
+              },
+              "value": "starship"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 359,
+                "start": 351
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 359,
+                  "start": 351
+                },
+                "value": "Starship"
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "ObjectTypeDefinition",
+        "loc": {
+          "end": 361,
+          "start": 123
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 133,
+            "start": 128
+          },
+          "value": "Query"
+        }
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 477,
+                  "start": 461
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 468,
+                    "start": 461
+                  },
+                  "value": "episode"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 477,
+                    "start": 470
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 477,
+                      "start": 470
+                    },
+                    "value": "Episode"
+                  }
+                }
+              },
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 499,
+                  "start": 479
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 485,
+                    "start": 479
+                  },
+                  "value": "review"
+                },
+                "type": {
+                  "kind": "NonNullType",
+                  "loc": {
+                    "end": 499,
+                    "start": 487
+                  },
+                  "type": {
+                    "kind": "NamedType",
+                    "loc": {
+                      "end": 498,
+                      "start": 487
+                    },
+                    "name": {
+                      "kind": "Name",
+                      "loc": {
+                        "end": 498,
+                        "start": 487
+                      },
+                      "value": "ReviewInput"
+                    }
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 508,
+              "start": 448
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 460,
+                "start": 448
+              },
+              "value": "createReview"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 508,
+                "start": 502
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 508,
+                  "start": 502
+                },
+                "value": "Review"
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "ObjectTypeDefinition",
+        "loc": {
+          "end": 510,
+          "start": 430
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 443,
+            "start": 435
+          },
+          "value": "Mutation"
+        }
+      },
+      {
+        "directives": [],
+        "kind": "EnumTypeDefinition",
+        "loc": {
+          "end": 781,
+          "start": 551
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 563,
+            "start": 556
+          },
+          "value": "Episode"
+        },
+        "values": [
+          {
+            "directives": [],
+            "kind": "EnumValueDefinition",
+            "loc": {
+              "end": 631,
+              "start": 624
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 631,
+                "start": 624
+              },
+              "value": "NEWHOPE"
+            }
+          },
+          {
+            "directives": [],
+            "kind": "EnumValueDefinition",
+            "loc": {
+              "end": 708,
+              "start": 702
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 708,
+                "start": 702
+              },
+              "value": "EMPIRE"
+            }
+          },
+          {
+            "directives": [],
+            "kind": "EnumValueDefinition",
+            "loc": {
+              "end": 779,
+              "start": 775
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 779,
+                "start": 775
+              },
+              "value": "JEDI"
+            }
+          }
+        ]
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 883,
+              "start": 876
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 878,
+                "start": 876
+              },
+              "value": "id"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 883,
+                "start": 880
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 882,
+                  "start": 880
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 882,
+                    "start": 880
+                  },
+                  "value": "ID"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 929,
+              "start": 916
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 920,
+                "start": 916
+              },
+              "value": "name"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 929,
+                "start": 922
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 928,
+                  "start": 922
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 928,
+                    "start": 922
+                  },
+                  "value": "String"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 1021,
+              "start": 1001
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1008,
+                "start": 1001
+              },
+              "value": "friends"
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 1021,
+                "start": 1010
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 1020,
+                  "start": 1011
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 1020,
+                    "start": 1011
+                  },
+                  "value": "Character"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 1120,
+                  "start": 1110
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 1115,
+                    "start": 1110
+                  },
+                  "value": "first"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 1120,
+                    "start": 1117
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 1120,
+                      "start": 1117
+                    },
+                    "value": "Int"
+                  }
+                }
+              },
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 1131,
+                  "start": 1122
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 1127,
+                    "start": 1122
+                  },
+                  "value": "after"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 1131,
+                    "start": 1129
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 1131,
+                      "start": 1129
+                    },
+                    "value": "ID"
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 1152,
+              "start": 1092
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1109,
+                "start": 1092
+              },
+              "value": "friendsConnection"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 1152,
+                "start": 1134
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 1151,
+                  "start": 1134
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 1151,
+                    "start": 1134
+                  },
+                  "value": "FriendsConnection"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 1217,
+              "start": 1196
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1205,
+                "start": 1196
+              },
+              "value": "appearsIn"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 1217,
+                "start": 1207
+              },
+              "type": {
+                "kind": "ListType",
+                "loc": {
+                  "end": 1216,
+                  "start": 1207
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 1215,
+                    "start": 1208
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 1215,
+                      "start": 1208
+                    },
+                    "value": "Episode"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "InterfaceTypeDefinition",
+        "loc": {
+          "end": 1219,
+          "start": 824
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 843,
+            "start": 834
+          },
+          "value": "Character"
+        }
+      },
+      {
+        "directives": [],
+        "kind": "EnumTypeDefinition",
+        "loc": {
+          "end": 1453,
+          "start": 1238
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 1253,
+            "start": 1243
+          },
+          "value": "LengthUnit"
+        },
+        "values": [
+          {
+            "directives": [],
+            "kind": "EnumValueDefinition",
+            "loc": {
+              "end": 1302,
+              "start": 1297
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1302,
+                "start": 1297
+              },
+              "value": "METER"
+            }
+          },
+          {
+            "directives": [],
+            "kind": "EnumValueDefinition",
+            "loc": {
+              "end": 1349,
+              "start": 1345
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1349,
+                "start": 1345
+              },
+              "value": "FOOT"
+            }
+          },
+          {
+            "directives": [
+              {
+                "arguments": [
+                  {
+                    "kind": "Argument",
+                    "loc": {
+                      "end": 1450,
+                      "start": 1415
+                    },
+                    "name": {
+                      "kind": "Name",
+                      "loc": {
+                        "end": 1421,
+                        "start": 1415
+                      },
+                      "value": "reason"
+                    },
+                    "value": {
+                      "block": false,
+                      "kind": "StringValue",
+                      "loc": {
+                        "end": 1450,
+                        "start": 1423
+                      },
+                      "value": "Test deprecated enum case"
+                    }
+                  }
+                ],
+                "kind": "Directive",
+                "loc": {
+                  "end": 1451,
+                  "start": 1403
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 1414,
+                    "start": 1404
+                  },
+                  "value": "deprecated"
+                }
+              }
+            ],
+            "kind": "EnumValueDefinition",
+            "loc": {
+              "end": 1451,
+              "start": 1397
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1402,
+                "start": 1397
+              },
+              "value": "CUBIT"
+            }
+          }
+        ]
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 1571,
+              "start": 1564
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1566,
+                "start": 1564
+              },
+              "value": "id"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 1571,
+                "start": 1568
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 1570,
+                  "start": 1568
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 1570,
+                    "start": 1568
+                  },
+                  "value": "ID"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 1624,
+              "start": 1611
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1615,
+                "start": 1611
+              },
+              "value": "name"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 1624,
+                "start": 1617
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 1623,
+                  "start": 1617
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 1623,
+                    "start": 1617
+                  },
+                  "value": "String"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 1698,
+              "start": 1680
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1690,
+                "start": 1680
+              },
+              "value": "homePlanet"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 1698,
+                "start": 1692
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 1698,
+                  "start": 1692
+                },
+                "value": "String"
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "defaultValue": {
+                  "kind": "EnumValue",
+                  "loc": {
+                    "end": 1784,
+                    "start": 1779
+                  },
+                  "value": "METER"
+                },
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 1784,
+                  "start": 1760
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 1764,
+                    "start": 1760
+                  },
+                  "value": "unit"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 1776,
+                    "start": 1766
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 1776,
+                      "start": 1766
+                    },
+                    "value": "LengthUnit"
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 1792,
+              "start": 1753
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1759,
+                "start": 1753
+              },
+              "value": "height"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 1792,
+                "start": 1787
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 1792,
+                  "start": 1787
+                },
+                "value": "Float"
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 1848,
+              "start": 1837
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1841,
+                "start": 1837
+              },
+              "value": "mass"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 1848,
+                "start": 1843
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 1848,
+                  "start": 1843
+                },
+                "value": "Float"
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 1932,
+              "start": 1912
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1919,
+                "start": 1912
+              },
+              "value": "friends"
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 1932,
+                "start": 1921
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 1931,
+                  "start": 1922
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 1931,
+                    "start": 1922
+                  },
+                  "value": "Character"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 2027,
+                  "start": 2017
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2022,
+                    "start": 2017
+                  },
+                  "value": "first"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 2027,
+                    "start": 2024
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 2027,
+                      "start": 2024
+                    },
+                    "value": "Int"
+                  }
+                }
+              },
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 2038,
+                  "start": 2029
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2034,
+                    "start": 2029
+                  },
+                  "value": "after"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 2038,
+                    "start": 2036
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 2038,
+                      "start": 2036
+                    },
+                    "value": "ID"
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2059,
+              "start": 1999
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2016,
+                "start": 1999
+              },
+              "value": "friendsConnection"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 2059,
+                "start": 2041
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 2058,
+                  "start": 2041
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2058,
+                    "start": 2041
+                  },
+                  "value": "FriendsConnection"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2120,
+              "start": 2099
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2108,
+                "start": 2099
+              },
+              "value": "appearsIn"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 2120,
+                "start": 2110
+              },
+              "type": {
+                "kind": "ListType",
+                "loc": {
+                  "end": 2119,
+                  "start": 2110
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 2118,
+                    "start": 2111
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 2118,
+                      "start": 2111
+                    },
+                    "value": "Episode"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2218,
+              "start": 2197
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2206,
+                "start": 2197
+              },
+              "value": "starships"
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 2218,
+                "start": 2208
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 2217,
+                  "start": 2209
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2217,
+                    "start": 2209
+                  },
+                  "value": "Starship"
+                }
+              }
+            }
+          }
+        ],
+        "interfaces": [
+          {
+            "kind": "NamedType",
+            "loc": {
+              "end": 1535,
+              "start": 1526
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 1535,
+                "start": 1526
+              },
+              "value": "Character"
+            }
+          }
+        ],
+        "kind": "ObjectTypeDefinition",
+        "loc": {
+          "end": 2220,
+          "start": 1504
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 1514,
+            "start": 1509
+          },
+          "value": "Human"
+        }
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2351,
+              "start": 2344
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2346,
+                "start": 2344
+              },
+              "value": "id"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 2351,
+                "start": 2348
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 2350,
+                  "start": 2348
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2350,
+                    "start": 2348
+                  },
+                  "value": "ID"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2399,
+              "start": 2386
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2390,
+                "start": 2386
+              },
+              "value": "name"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 2399,
+                "start": 2392
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 2398,
+                  "start": 2392
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2398,
+                    "start": 2392
+                  },
+                  "value": "String"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2483,
+              "start": 2463
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2470,
+                "start": 2463
+              },
+              "value": "friends"
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 2483,
+                "start": 2472
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 2482,
+                  "start": 2473
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2482,
+                    "start": 2473
+                  },
+                  "value": "Character"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 2578,
+                  "start": 2568
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2573,
+                    "start": 2568
+                  },
+                  "value": "first"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 2578,
+                    "start": 2575
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 2578,
+                      "start": 2575
+                    },
+                    "value": "Int"
+                  }
+                }
+              },
+              {
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 2589,
+                  "start": 2580
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2585,
+                    "start": 2580
+                  },
+                  "value": "after"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 2589,
+                    "start": 2587
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 2589,
+                      "start": 2587
+                    },
+                    "value": "ID"
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2610,
+              "start": 2550
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2567,
+                "start": 2550
+              },
+              "value": "friendsConnection"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 2610,
+                "start": 2592
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 2609,
+                  "start": 2592
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2609,
+                    "start": 2592
+                  },
+                  "value": "FriendsConnection"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2671,
+              "start": 2650
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2659,
+                "start": 2650
+              },
+              "value": "appearsIn"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 2671,
+                "start": 2661
+              },
+              "type": {
+                "kind": "ListType",
+                "loc": {
+                  "end": 2670,
+                  "start": 2661
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 2669,
+                    "start": 2662
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 2669,
+                      "start": 2662
+                    },
+                    "value": "Episode"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2731,
+              "start": 2708
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2723,
+                "start": 2708
+              },
+              "value": "primaryFunction"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 2731,
+                "start": 2725
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 2731,
+                  "start": 2725
+                },
+                "value": "String"
+              }
+            }
+          }
+        ],
+        "interfaces": [
+          {
+            "kind": "NamedType",
+            "loc": {
+              "end": 2315,
+              "start": 2306
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2315,
+                "start": 2306
+              },
+              "value": "Character"
+            }
+          }
+        ],
+        "kind": "ObjectTypeDefinition",
+        "loc": {
+          "end": 2733,
+          "start": 2284
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 2294,
+            "start": 2289
+          },
+          "value": "Droid"
+        }
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2856,
+              "start": 2841
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2851,
+                "start": 2841
+              },
+              "value": "totalCount"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 2856,
+                "start": 2853
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 2856,
+                  "start": 2853
+                },
+                "value": "Int"
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 2930,
+              "start": 2910
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 2915,
+                "start": 2910
+              },
+              "value": "edges"
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 2930,
+                "start": 2917
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 2929,
+                  "start": 2918
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 2929,
+                    "start": 2918
+                  },
+                  "value": "FriendsEdge"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3024,
+              "start": 3004
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3011,
+                "start": 3004
+              },
+              "value": "friends"
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 3024,
+                "start": 3013
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3023,
+                  "start": 3014
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3023,
+                    "start": 3014
+                  },
+                  "value": "Character"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3093,
+              "start": 3074
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3082,
+                "start": 3074
+              },
+              "value": "pageInfo"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 3093,
+                "start": 3084
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3092,
+                  "start": 3084
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3092,
+                    "start": 3084
+                  },
+                  "value": "PageInfo"
+                }
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "ObjectTypeDefinition",
+        "loc": {
+          "end": 3095,
+          "start": 2782
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 2804,
+            "start": 2787
+          },
+          "value": "FriendsConnection"
+        }
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3204,
+              "start": 3193
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3199,
+                "start": 3193
+              },
+              "value": "cursor"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 3204,
+                "start": 3201
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3203,
+                  "start": 3201
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3203,
+                    "start": 3201
+                  },
+                  "value": "ID"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3276,
+              "start": 3261
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3265,
+                "start": 3261
+              },
+              "value": "node"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 3276,
+                "start": 3267
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 3276,
+                  "start": 3267
+                },
+                "value": "Character"
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "ObjectTypeDefinition",
+        "loc": {
+          "end": 3278,
+          "start": 3139
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 3155,
+            "start": 3144
+          },
+          "value": "FriendsEdge"
+        }
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3357,
+              "start": 3342
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3353,
+                "start": 3342
+              },
+              "value": "startCursor"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 3357,
+                "start": 3355
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 3357,
+                  "start": 3355
+                },
+                "value": "ID"
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3373,
+              "start": 3360
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3369,
+                "start": 3360
+              },
+              "value": "endCursor"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 3373,
+                "start": 3371
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 3373,
+                  "start": 3371
+                },
+                "value": "ID"
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3397,
+              "start": 3376
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3387,
+                "start": 3376
+              },
+              "value": "hasNextPage"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 3397,
+                "start": 3389
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3396,
+                  "start": 3389
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3396,
+                    "start": 3389
+                  },
+                  "value": "Boolean"
+                }
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "ObjectTypeDefinition",
+        "loc": {
+          "end": 3399,
+          "start": 3324
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 3337,
+            "start": 3329
+          },
+          "value": "PageInfo"
+        }
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3507,
+              "start": 3496
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3501,
+                "start": 3496
+              },
+              "value": "stars"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 3507,
+                "start": 3503
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3506,
+                  "start": 3503
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3506,
+                    "start": 3503
+                  },
+                  "value": "Int"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3556,
+              "start": 3538
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3548,
+                "start": 3538
+              },
+              "value": "commentary"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 3556,
+                "start": 3550
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 3556,
+                  "start": 3550
+                },
+                "value": "String"
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "ObjectTypeDefinition",
+        "loc": {
+          "end": 3558,
+          "start": 3434
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 3445,
+            "start": 3439
+          },
+          "value": "Review"
+        }
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "directives": [],
+            "kind": "InputValueDefinition",
+            "loc": {
+              "end": 3668,
+              "start": 3657
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3662,
+                "start": 3657
+              },
+              "value": "stars"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 3668,
+                "start": 3664
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3667,
+                  "start": 3664
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3667,
+                    "start": 3664
+                  },
+                  "value": "Int"
+                }
+              }
+            }
+          },
+          {
+            "directives": [],
+            "kind": "InputValueDefinition",
+            "loc": {
+              "end": 3727,
+              "start": 3709
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3719,
+                "start": 3709
+              },
+              "value": "commentary"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 3727,
+                "start": 3721
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 3727,
+                  "start": 3721
+                },
+                "value": "String"
+              }
+            }
+          },
+          {
+            "directives": [],
+            "kind": "InputValueDefinition",
+            "loc": {
+              "end": 3785,
+              "start": 3759
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3773,
+                "start": 3759
+              },
+              "value": "favorite_color"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 3785,
+                "start": 3775
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 3785,
+                  "start": 3775
+                },
+                "value": "ColorInput"
+              }
+            }
+          }
+        ],
+        "kind": "InputObjectTypeDefinition",
+        "loc": {
+          "end": 3787,
+          "start": 3621
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 3638,
+            "start": 3627
+          },
+          "value": "ReviewInput"
+        }
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "directives": [],
+            "kind": "InputValueDefinition",
+            "loc": {
+              "end": 3866,
+              "start": 3857
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3860,
+                "start": 3857
+              },
+              "value": "red"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 3866,
+                "start": 3862
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3865,
+                  "start": 3862
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3865,
+                    "start": 3862
+                  },
+                  "value": "Int"
+                }
+              }
+            }
+          },
+          {
+            "directives": [],
+            "kind": "InputValueDefinition",
+            "loc": {
+              "end": 3880,
+              "start": 3869
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3874,
+                "start": 3869
+              },
+              "value": "green"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 3880,
+                "start": 3876
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3879,
+                  "start": 3876
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3879,
+                    "start": 3876
+                  },
+                  "value": "Int"
+                }
+              }
+            }
+          },
+          {
+            "directives": [],
+            "kind": "InputValueDefinition",
+            "loc": {
+              "end": 3893,
+              "start": 3883
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3887,
+                "start": 3883
+              },
+              "value": "blue"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 3893,
+                "start": 3889
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3892,
+                  "start": 3889
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3892,
+                    "start": 3889
+                  },
+                  "value": "Int"
+                }
+              }
+            }
+          }
+        ],
+        "kind": "InputObjectTypeDefinition",
+        "loc": {
+          "end": 3895,
+          "start": 3836
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 3852,
+            "start": 3842
+          },
+          "value": "ColorInput"
+        }
+      },
+      {
+        "directives": [],
+        "fields": [
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3948,
+              "start": 3941
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3943,
+                "start": 3941
+              },
+              "value": "id"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 3948,
+                "start": 3945
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3947,
+                  "start": 3945
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3947,
+                    "start": 3945
+                  },
+                  "value": "ID"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 3993,
+              "start": 3980
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 3984,
+                "start": 3980
+              },
+              "value": "name"
+            },
+            "type": {
+              "kind": "NonNullType",
+              "loc": {
+                "end": 3993,
+                "start": 3986
+              },
+              "type": {
+                "kind": "NamedType",
+                "loc": {
+                  "end": 3992,
+                  "start": 3986
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 3992,
+                    "start": 3986
+                  },
+                  "value": "String"
+                }
+              }
+            }
+          },
+          {
+            "arguments": [
+              {
+                "defaultValue": {
+                  "kind": "EnumValue",
+                  "loc": {
+                    "end": 4078,
+                    "start": 4073
+                  },
+                  "value": "METER"
+                },
+                "directives": [],
+                "kind": "InputValueDefinition",
+                "loc": {
+                  "end": 4078,
+                  "start": 4054
+                },
+                "name": {
+                  "kind": "Name",
+                  "loc": {
+                    "end": 4058,
+                    "start": 4054
+                  },
+                  "value": "unit"
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 4070,
+                    "start": 4060
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 4070,
+                      "start": 4060
+                    },
+                    "value": "LengthUnit"
+                  }
+                }
+              }
+            ],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 4086,
+              "start": 4047
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 4053,
+                "start": 4047
+              },
+              "value": "length"
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 4086,
+                "start": 4081
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 4086,
+                  "start": 4081
+                },
+                "value": "Float"
+              }
+            }
+          },
+          {
+            "arguments": [],
+            "directives": [],
+            "kind": "FieldDefinition",
+            "loc": {
+              "end": 4113,
+              "start": 4089
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 4100,
+                "start": 4089
+              },
+              "value": "coordinates"
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 4113,
+                "start": 4102
+              },
+              "type": {
+                "kind": "NonNullType",
+                "loc": {
+                  "end": 4112,
+                  "start": 4103
+                },
+                "type": {
+                  "kind": "ListType",
+                  "loc": {
+                    "end": 4111,
+                    "start": 4103
+                  },
+                  "type": {
+                    "kind": "NonNullType",
+                    "loc": {
+                      "end": 4110,
+                      "start": 4104
+                    },
+                    "type": {
+                      "kind": "NamedType",
+                      "loc": {
+                        "end": 4109,
+                        "start": 4104
+                      },
+                      "name": {
+                        "kind": "Name",
+                        "loc": {
+                          "end": 4109,
+                          "start": 4104
+                        },
+                        "value": "Float"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "interfaces": [],
+        "kind": "ObjectTypeDefinition",
+        "loc": {
+          "end": 4115,
+          "start": 3896
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 3909,
+            "start": 3901
+          },
+          "value": "Starship"
+        }
+      },
+      {
+        "directives": [],
+        "kind": "UnionTypeDefinition",
+        "loc": {
+          "end": 4161,
+          "start": 4116
+        },
+        "name": {
+          "kind": "Name",
+          "loc": {
+            "end": 4134,
+            "start": 4122
+          },
+          "value": "SearchResult"
+        },
+        "types": [
+          {
+            "kind": "NamedType",
+            "loc": {
+              "end": 4142,
+              "start": 4137
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 4142,
+                "start": 4137
+              },
+              "value": "Human"
+            }
+          },
+          {
+            "kind": "NamedType",
+            "loc": {
+              "end": 4150,
+              "start": 4145
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 4150,
+                "start": 4145
+              },
+              "value": "Droid"
+            }
+          },
+          {
+            "kind": "NamedType",
+            "loc": {
+              "end": 4161,
+              "start": 4153
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 4161,
+                "start": 4153
+              },
+              "value": "Starship"
+            }
+          }
+        ]
+      }
+    ],
+    "kind": "Document",
+    "loc": {
+      "end": 4162,
+      "start": 0
+    }
+  }
