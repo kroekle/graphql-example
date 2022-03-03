@@ -59,12 +59,12 @@ The downfall of working with AST is that it can be very complex, I've started to
 1.  Let's add allowed operations for both querying and introspection
     ```js
     allowed_opperation {
-      input.parsed_body.operationName = "IntrospectionQuery"
+      input.parsed_body.operationName == "IntrospectionQuery"
     }
 
     allowed_opperation {
-      ast.definitions[i].kind = "OperationDefinition"
-      ast.definitions[i].operation = "query"
+      ast.definitions[i].kind == "OperationDefinition"
+      ast.definitions[i].operation == "query"
     }
     ```
 1. Next, let's add a helper function for group membership (I'm cheating here a little by just adding group to a header, normally you would decode a JWT token to get this information)
